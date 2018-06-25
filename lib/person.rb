@@ -1,5 +1,13 @@
 # person.rb
 class Person 
+  def name=(person_name)
+    @name = person_name
+  end
+  
+  def name
+    @name 
+  end
+  
   def job=(job_name)
     @job = job_name
   end
@@ -9,5 +17,5 @@ class Person
   end
 end 
 
-lisa = Person.new 
-lisa.job = "accountant"
+beyonce = Person.new 
+beyonce.name = "Beyonce"
