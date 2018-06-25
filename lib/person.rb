@@ -1,6 +1,6 @@
 # person.rb
 class Person 
-  def job = (job_name)
+  def job=(job_name)
     @job = job_name
   end
   
@@ -10,4 +10,4 @@ class Person
 end 
 
 lisa = Person.new 
-lisa.job 
+lisa.job = "accountant"
