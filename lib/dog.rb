@@ -17,15 +17,11 @@ class Dog
     @this_dogs_breed
   end
 
-
-
-
-
-
-
 end
 
 # dog.rb
 
-
+fido = Dog.new 
+fido.name = "Fido"
+fido.breed = "Lab"
 
