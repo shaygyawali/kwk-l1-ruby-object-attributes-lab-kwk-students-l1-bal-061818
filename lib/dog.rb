@@ -25,3 +25,6 @@ fido = Dog.new
 fido.name = "Fido"
 fido.breed = "Lab"
 
+puts fido.name 
+puts fido.breed
+
